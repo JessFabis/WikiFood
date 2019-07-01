@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url("../../../assets/img/fondo4.gif");
+    background-size: cover;
+}
+
+p {
+    color: aliceblue;
+}

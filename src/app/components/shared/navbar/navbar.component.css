@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+.navbar-text {
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+    font-size: 500%;
+}
+
+.nav-link {
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+    font-size: 300%;
+}

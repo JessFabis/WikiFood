@@ -1,22 +1,28 @@
-<h1>Restaurants <small>Opnion sobre algunos</small></h1>
+<h1 class="animated fadeIn fast">Restaurants <small>Opnion sobre algunos</small></h1>
 <hr>
 
 
-<div class="card-columns">
+<div class="card-columns animated fadeIn fast ">
 
-    <div *ngFor="let restaurant of dataRestaurants" class="card">
-        <img src="assets/img/sello.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">
+    <div *ngFor="let restaurant of dataRestaurants " class="card animated fadeIn slow">
+        <img src="assets/img/foto.jpeg " class="card-img-top " alt="... ">
+        <div class="card-body ">
+            <h5 class="card-title ">
 
                 {{restaurant.name}}
             </h5>
-            <p class="card-text">
+            <p class="card-text ">
                 {{restaurant.address.city}}
             </p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button type="button " class="btn btn-primary btn-dark ">
+                    Rating <span class="badge badge-light ">
+                            {{restaurant.rating}}
+                    </span>
+                  </button>
+            <p class="card-text "><small class="text-muted ">Last updated 3 mins ago</small></p>
 
-            <button type="button" class="btn btn-outline-primary btn-block">Leer más</button>
+
+            <button type="button " class="btn btn-outline-primary btn-block ">Leer más</button>
         </div>
     </div>
 

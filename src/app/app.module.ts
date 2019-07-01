@@ -13,6 +13,8 @@ import { AboutComponent } from './components/about/about.component';
 import { RestaurantsComponent } from './components/restaurants/restaurants.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
-    APP_ROUTING
+    APP_ROUTING,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCUlaRGw7-YIttWO1iAgtttksaUfuxISyY'
+    })
   ],
   providers: [
     RestaurantsService

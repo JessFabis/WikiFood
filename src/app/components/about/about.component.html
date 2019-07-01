@@ -5,3 +5,20 @@
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quo cumque repudiandae quae nemo sint tempora quaerat adipisci? Vitae fugiat porro ab laudantium culpa est tempora odio? Consectetur, quas qui.
 
 </p>
+
+<agm-map (mapClick)="agregarMarcador($event)" [latitude]="lat" [longitude]="lng" [zoom]='15'>
+    <agm-marker [latitude]="lat" [longitude]="lng">
+
+        <agm-info-window *ngFor="let marcador of marcadores" [latitude]="marcador.lat" [longitude]="marcador.lng">
+            <strong>{{marcador.titulo}}</strong>
+            <p>
+                {{marcador.desc}}
+            </p>
+
+            <div>
+                <button mat-raised-button color="primary">Editar</button>
+                <button mat-raised-button color="warn">Borrar</button>
+            </div>
+        </agm-info-window>
+    </agm-marker>
+</agm-map>

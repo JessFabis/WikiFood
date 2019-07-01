@@ -1,4 +1,6 @@
 body {
+    background-image: url("../src/assets/img/fondo.jpeg");
+    background-size: cover;
     padding-bottom: 50px
 }
 
