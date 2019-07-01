@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+.card-title {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 350%;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.card-textb {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    size: 70%;
+}

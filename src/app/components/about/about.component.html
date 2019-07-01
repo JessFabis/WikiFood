@@ -1,10 +1,6 @@
-<h1 class="animated fadeIn fast">Sobre Food</h1>
+<h1 class="animated fadeIn fast">
+    Locations <small> En este apartado se pueden visualizar las localizaciones exactas de cada restaurante</small></h1>
 <hr>
-<p class="animated fadeIn">
-
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quo cumque repudiandae quae nemo sint tempora quaerat adipisci? Vitae fugiat porro ab laudantium culpa est tempora odio? Consectetur, quas qui.
-
-</p>
 
 <agm-map (mapClick)="agregarMarcador($event)" [latitude]="lat" [longitude]="lng" [zoom]='15'>
     <agm-marker [latitude]="lat" [longitude]="lng">

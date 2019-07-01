@@ -15,7 +15,12 @@ export class RestaurantsComponent implements OnInit {
     this._restaurantsService.getAppiRestaurants()
     .subscribe( (data:any) =>{
         console.log(data);
+        data.sort((a,b) => a.name.localeCompare(b.name));
         this.dataRestaurants= data;
+        
+        
+ 
+        
     });
    
   }

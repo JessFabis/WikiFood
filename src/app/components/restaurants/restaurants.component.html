@@ -1,4 +1,4 @@
-<h1 class="animated fadeIn fast">Restaurants <small>Opnion sobre algunos</small></h1>
+<h1 class="animated fadeIn fast">Restaurants <small>Información importante de tus sitios de comida favoritos</small></h1>
 <hr>
 
 
@@ -11,18 +11,27 @@
 
                 {{restaurant.name}}
             </h5>
-            <p class="card-text ">
-                {{restaurant.address.city}}
-            </p>
             <button type="button " class="btn btn-primary btn-dark ">
                     Rating <span class="badge badge-light ">
-                            {{restaurant.rating}}
+                            ⭐ {{restaurant.rating}}
                     </span>
+
                   </button>
-            <p class="card-text "><small class="text-muted ">Last updated 3 mins ago</small></p>
+            <p class="card-text ">
+                📍 Estado: {{restaurant.address.state}} <br>Ciudad: {{restaurant.address.city}}<br> Calle: {{restaurant.address.street}}
+            </p>
 
 
-            <button type="button " class="btn btn-outline-primary btn-block ">Leer más</button>
+
+            <p class="card-textb ">
+
+                <span class="badge badge-info">📧 Email: <br>{{restaurant.contact.email}}</span><br>
+                <span class="badge badge-dark">☎ Telefono:<br> {{restaurant.contact.phone}}</span><br>
+                <span class="badge badge-primary">💻 Sitio: <br> {{restaurant.contact.site}}</span><br>
+            </p>
+
+
+
         </div>
     </div>
 
