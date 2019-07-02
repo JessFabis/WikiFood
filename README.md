@@ -3,7 +3,7 @@
 ## Índice del proyecto de pagina
 
 
-- [Descripción](#Descripción-del-proyecto)
+- [Descripción](#Descripción)
 - [Comenzando](#Comenzando)
 - [Pre-requisitos](#Pre-requisitos)
 - [Instalación](#Instalación)
@@ -25,11 +25,11 @@
  
  -![screen](./src/assets/img/portada.png) 
 
-Es una aplicacion pensada para los amantes de la comida , se trata de un pequeño catalogo donde podras encontrar una gran variedad de restaurantes , dentro de la aplicacion existe un apartado donde se muestran los datos mas importantes de cada sitio de comida ,como por ejemplo (nombre , ciudad, direccion , telefono, sitio web, ranking )
+Es una aplicación pensada para los amantes de la comida , se trata de un pequeño catalogo donde podrás encontrar una gran variedad de restaurantes , dentro de la aplicación existe un apartado donde se muestran los datos mas importantes de cada sitio de comida ,como por ejemplo (nombre , ciudad, dirección , teléfono, sitio Web, ranking )
 
  -![screen](./src/assets/img/apartado.png) 
 
-Tambien contamos con otra seccion donde a traves de google maps se puede observar la localizacion de cada restaurant .
+Tambien contamos con otra seccion donde por medio de google maps se puede observar la localización de cada restaurant .
 
  -![screen](./src/assets/img/maps.png) 
 
